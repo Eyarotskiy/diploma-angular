@@ -42,9 +42,6 @@ class AppComponent {
     constructor() {
         this.title = 'diploma-angular';
     }
-    ngAfterViewChecked() {
-        console.log('yevTest2');
-    }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 3, vars: 0, consts: [[1, "app-title"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {

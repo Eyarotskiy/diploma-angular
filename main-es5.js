@@ -1,8 +1,8 @@
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
@@ -67,24 +67,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*! ./product-list/product-list.component */
     "./src/app/product-list/product-list.component.ts");
 
-    var AppComponent =
-    /*#__PURE__*/
-    function () {
-      function AppComponent() {
-        _classCallCheck(this, AppComponent);
+    var AppComponent = function AppComponent() {
+      _classCallCheck(this, AppComponent);
 
-        this.title = 'diploma-angular';
-      }
-
-      _createClass(AppComponent, [{
-        key: "ngAfterViewChecked",
-        value: function ngAfterViewChecked() {
-          console.log('yevTest2');
-        }
-      }]);
-
-      return AppComponent;
-    }();
+      this.title = 'diploma-angular';
+    };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
       return new (t || AppComponent)();
